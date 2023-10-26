@@ -122,7 +122,7 @@ $_SESSION['start_time'] = time();
                             <!-- Sidebar user panel -->
                             <div class="user-panel">
                                 <div>
-                                    <center><img src="<?php echo $_SESSION['gambar']; ?>" height="80" width="80" class="img-circle" alt="User Image" style="border: 3px solid white;" /></center>
+                                    <center><img src="<?php echo $_SESSION['gambar']; ?>" height="80" width="80" class="img-circle" alt="User Image" /></center>
                                 </div>
                                 <div class="info">
                                     <center><p><?php echo $_SESSION['fullname']; ?></p></center>
